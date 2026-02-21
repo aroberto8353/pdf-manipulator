@@ -1,0 +1,38 @@
+1-Receber um dicionário com PDFs e páginas
+2- brir os PDFs
+3-Extrair páginas específicas
+4-Combinar num novo PDF
+5-Aplicar watermark
+6-Guardar resultado
+
+📦 A classe deve guardar:
+
+config (dicionário)
+
+watermark_path
+
+output_path
+
+pdf_readers (dicionário interno)
+
+writer (objeto para escrever PDF)
+
+
+📌 Métodos que vais implementar
+
+carregar_pdfs() feito
+→ abre os PDFs e guarda leitores
+
+extrair_paginas() feito
+→ percorre config e adiciona páginas ao writer
+
+aplicar_marca_agua()
+→ aplica watermark às páginas já combinadas
+
+guardar_pdf()
+→ escreve ficheiro final
+
+processar()
+→ chama os métodos por ordem
+
+
